@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+main{
+    width: 100%;
+    background-color: #fbfbfb;
+    padding: 1rem;
+}
+#banner, #contac{
+    min-height: 100vh;
+}
+
+header{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 5.625rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.containerNavbar {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+   margin-left: 5%;
+}
+.navbarSelection {
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+}
+
+.containerBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.imgBanner{
+    margin-top: 4.9rem;
+    width: 300px;
+    height: 400px;
+    border-radius: 100%;
+}
+.containerBanner h1{
+    font-size: 2.16rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.containerBanner p{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.buttonBanner{
+    display: inline-block;
+    padding: 4px 20px;
+    background-color: #af599e;
+    color: #fbfbfb;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 30px;
+}
+.containerContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.descriptionContact{
+   
+    margin-top: 4.9rem;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgba(175, 89, 158, 0.3);
+}
+
+.descriptionContact h2{
+    font-size: 1.68rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.descriptionContact p{
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #0f0f0f;
+}
+.containerIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.containerIcons a{
+    text-decoration: none;
+    color: inherit;
+}
+.icon{
+    margin: 20px 10px;
+    height: 50px;
+    width: 50px;
+}
+footer{
+    width: 100%;
+    background-color: #af599e;
+    border-radius: 5px;
+    height: 5.625rem;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
